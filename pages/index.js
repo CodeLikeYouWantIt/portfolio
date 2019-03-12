@@ -7,7 +7,9 @@ class Index extends Component {
         return(
             <div>
                 <h1>Index Page</h1>
-                <Header/>
+                <Header title={'I am a header component'}>
+                    <h1>I am children props</h1>
+                </Header>
             </div>
         )
     }
