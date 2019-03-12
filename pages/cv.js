@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
+import BaseLayout from '../components/layouts/BaseLayout'
 
 class CV extends Component {
     render() {
         return (
-            <h1>Cover Letter Page</h1>
+            <BaseLayout>
+                <h1>Cover Letter Page</h1>
+            </BaseLayout>
         )
     }
 }

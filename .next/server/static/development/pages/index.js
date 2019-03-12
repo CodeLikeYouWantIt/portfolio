@@ -151,75 +151,69 @@ function (_Component) {
           lineNumber: 8
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+        href: '/',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 9
         },
         __self: this
-      }, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-        href: '/',
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 10
-        },
-        __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 10
         },
         __self: this
       }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
         href: '/about',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13
+          lineNumber: 12
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
+          lineNumber: 13
         },
         __self: this
       }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
         href: '/portfolios',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 15
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 16
         },
         __self: this
       }, "Portfolio")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
         href: '/blogs',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 18
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 19
         },
         __self: this
       }, "Blogs")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
         href: '/cv',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 21
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 22
         },
         __self: this
       }, "CV")));
@@ -230,6 +224,42 @@ function (_Component) {
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
 
+
+/***/ }),
+
+/***/ "./components/layouts/BaseLayout.js":
+/*!******************************************!*\
+  !*** ./components/layouts/BaseLayout.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _common_Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../common/Header */ "./components/common/Header.js");
+var _jsxFileName = "/Users/hectorf./CodeProjects/NEXTjs/portfolio/components/layouts/BaseLayout.js";
+
+
+
+var BaseLayout = function BaseLayout(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_common_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }), props.children);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (BaseLayout);
 
 /***/ }),
 
@@ -244,7 +274,7 @@ function (_Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_common_Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/common/Header */ "./components/common/Header.js");
+/* harmony import */ var _components_layouts_BaseLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layouts/BaseLayout */ "./components/layouts/BaseLayout.js");
 var _jsxFileName = "/Users/hectorf./CodeProjects/NEXTjs/portfolio/pages/index.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -282,32 +312,19 @@ function (_Component) {
   _createClass(Index, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layouts_BaseLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 7
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 8
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 9
-        },
-        __self: this
-      }, "Index Page"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_common_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        title: 'I am a header component',
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 10
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 11
-        },
-        __self: this
-      }, "I am children props")));
+      }, "Index Page"));
     }
   }]);
 
