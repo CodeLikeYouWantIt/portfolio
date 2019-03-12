@@ -19,6 +19,14 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+    "/portfolios": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/cv": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
