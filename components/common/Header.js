@@ -6,7 +6,6 @@ export default class Header extends Component{
         const title = this.props.title
         return(
             <React.Fragment>
-                <a>{title}</a>
                 <Link href={'/'}>
                     <a>Home</a>
                 </Link>

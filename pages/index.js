@@ -1,18 +1,14 @@
 import React, {Component} from 'react'
-import Header from '../components/common/Header'
-
+import BaseLayout from '../components/layouts/BaseLayout'
 
 class Index extends Component {
     render(){
         return(
-            <div>
+            <BaseLayout>
                 <h1>Index Page</h1>
-                <Header title={'I am a header component'}>
-                    <h1>I am children props</h1>
-                </Header>
-            </div>
+            </BaseLayout>
         )
     }
 }
 
-export default Index;
+export default Index; 
