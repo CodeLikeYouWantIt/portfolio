@@ -1,11 +1,12 @@
 import React, {Component} from 'react'
 import Link from 'next/link'
+import '../../styles/main.scss'
 
 export default class Header extends Component{
     render(){
-        const title = this.props.title
         return(
             <React.Fragment>
+                <p className="custom">scss</p>
                 <Link href={'/'}>
                     <a>Home</a>
                 </Link>
@@ -20,7 +21,17 @@ export default class Header extends Component{
                 </Link>
                 <Link href={'/cv'}>
                     <a>CV</a>
-                </Link>     
+                </Link>  
+
+                <style jsx>
+                {`
+                    a{
+                        font-size:30px
+                    }
+                
+                
+                `}
+                </style>   
             </React.Fragment>
         )
     }

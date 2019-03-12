@@ -6,6 +6,7 @@ class Index extends Component {
         return(
             <BaseLayout>
                 <h1>Index Page</h1>
+                <p>some random text</p>
             </BaseLayout>
         )
     }
