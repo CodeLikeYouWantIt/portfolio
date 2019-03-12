@@ -88,14 +88,14 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./pages/blogs.js":
+/***/ "./pages/about.js":
 /*!************************!*\
-  !*** ./pages/blogs.js ***!
+  !*** ./pages/about.js ***!
   \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -104,7 +104,7 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/hectorf./CodeProjects/NEXTjs/portfolio/pages/blogs.js";
+var _jsxFileName = "/Users/hectorf./CodeProjects/NEXTjs/portfolio/pages/about.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -126,18 +126,18 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
-var Blogs =
+var About =
 /*#__PURE__*/
 function (_Component) {
-  _inherits(Blogs, _Component);
+  _inherits(About, _Component);
 
-  function Blogs() {
-    _classCallCheck(this, Blogs);
+  function About() {
+    _classCallCheck(this, About);
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(Blogs).apply(this, arguments));
+    return _possibleConstructorReturn(this, _getPrototypeOf(About).apply(this, arguments));
   }
 
-  _createClass(Blogs, [{
+  _createClass(About, [{
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
@@ -146,25 +146,25 @@ function (_Component) {
           lineNumber: 6
         },
         __self: this
-      }, "Blogs page");
+      }, "hello");
     }
   }]);
 
-  return Blogs;
+  return About;
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
-/* harmony default export */ __webpack_exports__["default"] = (Blogs);
+/* harmony default export */ __webpack_exports__["default"] = (About);
 
 /***/ }),
 
-/***/ 5:
+/***/ 6:
 /*!******************************!*\
-  !*** multi ./pages/blogs.js ***!
+  !*** multi ./pages/about.js ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./pages/blogs.js */"./pages/blogs.js");
+module.exports = __webpack_require__(/*! ./pages/about.js */"./pages/about.js");
 
 
 /***/ }),
@@ -181,4 +181,4 @@ module.exports = require("react");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=blogs.js.map
+//# sourceMappingURL=about.js.map
